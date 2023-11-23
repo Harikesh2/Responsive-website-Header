@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stlye.css">
+    <link rel="stylesheet" href="mediaquries.css">
+    <title>My Protfolio</title>
+</head>
+<body>
+   <nav id="desktop-nav">
+      <div class="logo">Harikesh Agrahari</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#Project">Project</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+   </nav>
+   <nav id="hamburger-nav">
+        <div class="logo">Harikesh Agrahari</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+             <span></span>
+             <span></span>
+             <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about"  onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience"  onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#Project"  onclick="toggleMenu()">Project</a></li>
+                <li><a href="#Contact"  onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+</body>
+<script src="script.js"></script>
+</html>
