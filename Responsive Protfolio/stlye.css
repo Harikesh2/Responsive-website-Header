@@ -166,6 +166,7 @@ section {
 .section_text{
     align-items: center;
     text-align: center;
+    margin-top: 140px;
 }
 
 .section_text p{
@@ -176,8 +177,8 @@ section {
     text-align: center;
 }
 
-.section_text_p1{
-    font-size: 1.75rem;
+.section_text_p2{
+    font-size: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -198,4 +199,100 @@ section {
 .icon{
     cursor: pointer;
     height: 2rem;
+}
+
+/* BUTTONS */
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn{
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+
+.btn_btn_color-2, .btn_btn_color-1{
+    border: rgb(53, 53, 53);
+}
+
+.btn_btn_color-2:hover,
+ .btn_btn_color-1:hover{
+    cursor: pointer;
+}
+
+.btn_btn_color-1,
+ .btn_btn_color-2:hover{
+    background: rgb(53, 53, 53);
+    color: white;
+}
+
+.btn_btn_color-1:hover{
+    background: rgb(0, 0, 0);
+}
+
+.btn_btn_color-2{
+    background: none;
+}
+.btn_btn_color-2:hover{
+   border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+.btn-container{
+    gap: 1rem;
+}
+
+/* About Section */
+
+#about{
+    position: relative;
+}
+
+.about-containers{
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.about_details-container{
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers, .about_details-container{
+    display: flex;
+    justify-content: right;
+}
+.about-pic{
+border-radius: 2rem;
+}
+
+.arrow{
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.details-container{
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.section_container{
+    gap: 4rem;
+    height: 80%;
+}
+.section-pic-container{
+    height: 100px;
+    width: 100px;
+    margin: auto 0;
 }
